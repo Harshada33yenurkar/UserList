@@ -81,15 +81,63 @@ export default function UserListScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 15, backgroundColor: "#F9FAFB" },
-  centered: { flex: 1, justifyContent: "center", alignItems: "center" },
-  loadingText: { marginTop: 10, color: "#6B7280" },
-  errorText: { color: "red", fontSize: 16, marginBottom: 10 },
-  retryBtn: { backgroundColor: "#4F46E5", paddingHorizontal: 20, paddingVertical: 10, borderRadius: 8 },
-  retryText: { color: "#fff", fontWeight: "bold" },
-  search: { backgroundColor: "#fff", padding: 10, borderRadius: 10, marginBottom: 10, borderWidth: 1, borderColor: "#E5E7EB" },
-  card: { backgroundColor: "#fff", padding: 15, borderRadius: 12, marginBottom: 10, elevation: 3 },
-  name: { fontSize: 16, fontWeight: "bold", marginBottom: 5, color: "#111827" },
-  info: { color: "#6B7280", marginBottom: 2 },
-  emptyText: { textAlign: "center", color: "#9CA3AF", marginTop: 30 },
+  container:
+   { flex: 1,
+     padding: 15,
+     backgroundColor: "#F9FAFB" 
+   },
+  centered:
+   { flex: 1,
+     justifyContent: "center", 
+     alignItems: "center"
+   },
+  loadingText:
+   { marginTop: 10, 
+     color: "#6B7280"
+   },
+  errorText:
+   { color: "red",
+     fontSize: 16, 
+     marginBottom: 10 
+  },
+  retryBtn: 
+  { backgroundColor: "#4F46E5", 
+    paddingHorizontal: 20, 
+    paddingVertical: 10, 
+    borderRadius: 8 
+  },
+  retryText: 
+  { color: "#fff", 
+    fontWeight: "bold" 
+  },
+  search: 
+  { backgroundColor: "#fff", 
+    padding: 10, 
+    borderRadius: 10, 
+    marginBottom: 10, 
+    borderWidth: 1, 
+    borderColor: "#E5E7EB" 
+  },
+  card: 
+  { backgroundColor: "#fff", 
+    padding: 15, 
+    borderRadius: 12, 
+    marginBottom: 10, 
+    elevation: 3 
+  },
+  name: 
+  { fontSize: 16, 
+    fontWeight: "bold", 
+    marginBottom: 5, 
+    color: "#111827" 
+  },
+  info: 
+  { color: "#6B7280", 
+    marginBottom: 2 
+  },
+  emptyText: 
+  { textAlign: "center", 
+    color: "#9CA3AF", 
+    marginTop: 30 
+  },
 });
