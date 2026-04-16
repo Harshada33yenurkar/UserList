@@ -40,16 +40,56 @@ export default function UserDetailScreen({ route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { alignItems: "center", padding: 20, backgroundColor: "#F9FAFB", flexGrow: 1 },
-  centered: { flex: 1, justifyContent: "center", alignItems: "center" },
-  avatar: {
-    width: 80, height: 80, borderRadius: 40,
-    backgroundColor: "#4F46E5",
-    justifyContent: "center", alignItems: "center", marginBottom: 12,
+  container: 
+  { alignItems: "center", 
+    padding: 20, 
+    backgroundColor: "#F9FAFB", 
+    flexGrow: 1 
   },
-  avatarText: { color: "#fff", fontSize: 32, fontWeight: "bold" },
-  name: { fontSize: 22, fontWeight: "bold", marginBottom: 20, color: "#111827" },
-  card: { width: "100%", backgroundColor: "#fff", borderRadius: 12, padding: 20, elevation: 3 },
-  label: { fontSize: 12, color: "#9CA3AF", marginTop: 12 },
-  value: { fontSize: 15, color: "#111827", marginTop: 2 },
+  centered:
+  { flex: 1, 
+    justifyContent: "center", 
+    alignItems: "center" 
+  },
+  avatar: {
+    width: 80, height: 80, 
+    borderRadius: 40,
+    backgroundColor: "#4F46E5",
+    justifyContent: "center", 
+    alignItems: "center", 
+    marginBottom: 12,
+  },
+  avatarText: 
+  { 
+    color: "#fff", 
+    fontSize: 32, 
+    fontWeight: "bold" 
+  },
+  name:
+   { 
+    fontSize: 22, 
+    fontWeight: "bold", 
+    marginBottom: 20, 
+    color: "#111827" 
+  },
+  card:
+   {
+     width: "100%", 
+    backgroundColor: "#fff", 
+    borderRadius: 12, 
+    padding: 20, 
+    elevation: 3 
+  },
+  label: 
+  { 
+    fontSize: 12, 
+    color: "#9CA3AF", 
+    marginTop: 12 
+  },
+  value: 
+  { 
+    fontSize: 15, 
+    color: "#111827", 
+    marginTop: 2 
+  },
 });
